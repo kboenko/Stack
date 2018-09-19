@@ -39,7 +39,7 @@ const Analyzer = require('./entity/StringAnalyzer');
   analyzer.analyze('()())()');
   analyzer.analyze(')');
 
-  let m = analyzer.calculate('1 2 + 3 /');
+  let m = analyzer.calculate('8 2 + 5 * 9 +');
 
   console.log(m);
 
