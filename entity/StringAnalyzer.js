@@ -33,6 +33,8 @@ class StringAnalyzer {
 
         if (this.stack.size() === 0) {
           console.log('Скобки сбалансированы!');
+        } else {
+          console.log('Скобки не сбалансированы!');
         }
       }
 
